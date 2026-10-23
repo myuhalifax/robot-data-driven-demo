@@ -9,3 +9,6 @@ Strong contacts only            strong.csv         run_strong    3         0    
 Mixed signals                   mixed.csv          run_mixed     1         1     1
 All noise                       noise.csv          run_noise     0         0     3
 Bad row is logged not fatal     badrow.csv         run_badrow    1         0     0
+Empty file is handled           empty.csv        run_empty     0         0     0
+Boundary values at thresholds   boundary.csv     run_boundary  1         2     1
+Malformed rows are skipped      malformed.csv    run_malformed  1        0     0
